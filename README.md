@@ -4,6 +4,12 @@ A simple Promise-aware ES7 timer decorator.  Just logs the processing time for
   the given function, or the time until the promise resolves (ignores rejected
   promises).  Note that the promise itself adds ~35-40ms in my basic testing.
 
+## Installation
+
+```sh
+npm install --save-dev timer-decorator
+```
+
 ## Usage
 
 ```js
