@@ -16,7 +16,7 @@ npm install --save-dev timer-decorator
 import timer from 'timer-decorator';
 
 class Foo {
-  @timer;
+  @timer
   myMethod() {
     // ...
   }
