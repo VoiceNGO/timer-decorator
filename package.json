@@ -1,6 +1,6 @@
 {
   "name": "timer-decorator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ES7 promise-aware timer decorator",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zyklus/timer-decorator.git"
+    "url": "git+https://github.com/d9d/timer-decorator.git"
   },
   "keywords": [
     "es7",
@@ -24,7 +24,7 @@
   "author": "Mark Kahn <m@vouchr.com>",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/zyklus/timer-decorator/issues"
+    "url": "https://github.com/d9d/timer-decorator/issues"
   },
-  "homepage": "https://github.com/zyklus/timer-decorator#readme"
+  "homepage": "https://github.com/d9d/timer-decorator#readme"
 }

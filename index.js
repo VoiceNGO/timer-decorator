@@ -58,19 +58,13 @@ module.exports = function(target, key, descriptor) {
       let retVal      = null;
 
       console.time(timingName);
-      new Promise(function(resolve, reject) {
-        retVal = fn.apply(self, args);
+      retVal = fn.apply(self, args);
 
-        if (isPromise(retVal)){
-          resolve(retVal);
-        } else {
-          console.timeEnd(timingName);
-
-          reject();
-        }
-      }).then(
-        console.timeEnd.bind(console, timingName)
-      ).catch(() => {});
+      if (isPromise(retVal)) {
+        retVal.then(console.timeEnd.bind(console, timingName));
+      } else {
+        console.timeEnd(timingName);
+      }
 
       return retVal;
 
