@@ -10,19 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/d9d/timer-decorator.git"
   },
-  "keywords": [
-    "es7",
-    "decorator",
-    "timer",
-    "timing",
-    "time",
-    "profile",
-    "decorators",
-    "es6",
-    "class"
-  ],
+  "keywords": ["es7", "decorator", "timer", "timing", "time", "profile", "decorators", "es6", "class"],
   "author": "Mark Kahn <m@vouchr.com>",
-  "license": "Unlicense",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/d9d/timer-decorator/issues"
   },
