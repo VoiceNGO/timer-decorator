@@ -1,4 +1,3 @@
-// @flow
 // @providesModule decorators/timer
 
 const instances = new WeakMap();
